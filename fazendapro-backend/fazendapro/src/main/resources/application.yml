@@ -1,0 +1,47 @@
+spring:
+  application:
+    name: fazendapro
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fazendapro
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        default_schema: public
+
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    locations: classpath:db/migration
+    schemas: public
+
+fazendapro:
+  jwt:
+    secret: "404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970"
+    expiration: 86400000
+
+server:
+  port: 8080
+  error:
+    include-message: always
+    include-binding-errors: always
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+logging:
+  level:
+    com.fazendapro: DEBUG
+    org.springframework.security: INFO
