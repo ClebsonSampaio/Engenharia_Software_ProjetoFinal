@@ -52,6 +52,8 @@
 /home/clebson/Área de trabalho/FazendaPro/fazendapro-backend/fazendapro/src/main/java/com/fazendapro/leite/model/ProducaoLeite.java
 /home/clebson/Área de trabalho/FazendaPro/fazendapro-backend/fazendapro/src/main/java/com/fazendapro/leite/repository/ProducaoLeiteRepository.java
 /home/clebson/Área de trabalho/FazendaPro/fazendapro-backend/fazendapro/src/main/java/com/fazendapro/leite/service/ProducaoLeiteService.java
+/home/clebson/Área de trabalho/FazendaPro/fazendapro-backend/fazendapro/src/main/java/com/fazendapro/relatorio/controller/RelatorioController.java
+/home/clebson/Área de trabalho/FazendaPro/fazendapro-backend/fazendapro/src/main/java/com/fazendapro/relatorio/service/RelatorioService.java
 /home/clebson/Área de trabalho/FazendaPro/fazendapro-backend/fazendapro/src/main/java/com/fazendapro/reproducao/controller/ReproducaoController.java
 /home/clebson/Área de trabalho/FazendaPro/fazendapro-backend/fazendapro/src/main/java/com/fazendapro/reproducao/dto/ReproducaoDTO.java
 /home/clebson/Área de trabalho/FazendaPro/fazendapro-backend/fazendapro/src/main/java/com/fazendapro/reproducao/model/DiagnosticoGestacao.java

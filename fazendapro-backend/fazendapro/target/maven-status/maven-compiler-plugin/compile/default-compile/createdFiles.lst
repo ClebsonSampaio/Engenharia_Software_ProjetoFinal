@@ -1,7 +1,9 @@
+com/fazendapro/relatorio/service/RelatorioService$Rodape.class
 com/fazendapro/auth/model/Usuario$UsuarioBuilder.class
 com/fazendapro/animal/dto/RacaDTO.class
 com/fazendapro/estoque/model/ProdutoEstoque$ProdutoEstoqueBuilder.class
 com/fazendapro/animal/model/Raca.class
+com/fazendapro/relatorio/service/RelatorioService.class
 com/fazendapro/reproducao/dto/ReproducaoDTO.class
 com/fazendapro/leite/model/ProducaoLeite.class
 com/fazendapro/animal/model/StatusAnimal.class
@@ -53,6 +55,7 @@ com/fazendapro/exception/BusinessException.class
 com/fazendapro/saude/repository/EventoSanitarioRepository.class
 com/fazendapro/estoque/repository/ProdutoEstoqueRepository.class
 com/fazendapro/auth/service/JwtService.class
+com/fazendapro/relatorio/controller/RelatorioController.class
 com/fazendapro/leite/service/ProducaoLeiteService.class
 com/fazendapro/animal/model/Animal.class
 com/fazendapro/financeiro/model/TipoLancamento.class
